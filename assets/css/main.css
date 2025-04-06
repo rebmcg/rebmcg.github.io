@@ -1406,6 +1406,14 @@ input, select, textarea {
 		margin: 0 auto 2em auto;
 		text-align: center;
 	}
+		.image.right img,
+.image.left img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+	display: block;
+}
 	}
 
 	blockquote {
