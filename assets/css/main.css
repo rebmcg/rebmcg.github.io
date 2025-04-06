@@ -1397,7 +1397,15 @@ input, select, textarea {
 		h3, h4, h5, h6 {
 			font-size: 1em;
 		}
-
+		
+/* === Custom edit: Center image.left and image.right on mobile === */
+	.image.right,
+	.image.left {
+		float: none;
+		display: block;
+		margin: 0 auto 2em auto;
+		text-align: center;
+	}
 	}
 
 	blockquote {
