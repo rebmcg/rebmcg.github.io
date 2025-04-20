@@ -1592,11 +1592,10 @@ input, select, textarea {
  			 margin: 0 0 2em 2em;
 		}
 
-
-		.image.center {
-  			float: center;
- 			 margin: 0 0 2em 2em;
-		}
+.image.center_simple {
+  display: block;
+  margin: 0 auto 2em auto; /* center the image with bottom spacing */
+}
 
 		.image.centered {
 			display: block;
