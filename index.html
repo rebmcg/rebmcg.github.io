@@ -163,7 +163,9 @@ During my graduate work in the Marshall Lab at UCSF, I studied <i>Stentor coerul
 								</div>
 								<p>
 								<b>Differential Scanning Fluorimetry Plotting</b>
-<br>This is a technique that uses a qPCR machine and a dye called Sypro Orange to measure the melting temperature of a purified protein. As the protein unfolds at increasing temperatures, the dye binds to the exposed hydrophobic residues and its fluorescence increases - this fluorescence is measured by the qPCR machine. Comparing this melting temperature across many different buffer conditions allows us to determine which conditions promote protein stability. This jupyter notebook allows you to input your buffer conditions and the melt data exported from CFX Maestro software. Then you can plot your melt peaks and create queries to plot data by buffer, pH, salt, etc. This image shows all of the plots from an entire 96-well plate buffer screen. 
+<br>One of the main challenges of working with purified proteins is knowing which buffer will make the protein “happiest” – i.e. allow the protein to be as stable as possible when it is taken out of a cell and isolated in solution. For commonly studied proteins, oftentimes years of trial-and-error result in buffer recipes that are passed down from mentor to mentee. For a scientist working to purify a new protein, optimizing buffer conditions one by one is tedious and time consuming.
+<br><br>There is a technique called differential scanning fluorimetry that allows the scientist to quantitatively measure their protein’s stability in 96 different buffers simultaneously; turning years of optimization into an experiment that takes an afternoon. Not only does this allow the scientist to choose the one buffer condition that promotes stability the most, but it can also be used to uncover interesting trends in protein stability as buffer conditions vary. Differential scanning fluorimetry works by using a qPCR machine and a dye called Sypro Orange to measure the melting temperature of a purified protein. As the protein unfolds at increasing temperatures, the dye binds to the exposed hydrophobic residues and its fluorescence increases - this fluorescence is measured by the qPCR machine. Comparing this melting temperature across many different buffer conditions allows us to determine which conditions promote protein stability.
+<br><br>This python tool enables scientists to easily import their data and plot melt peaks to determine which condition promotes maximum stability. This tool also can plot protein stability data as a function of a particular buffer condition, like pH, to learn how different chemical conditions affect protein stability trends. To use the tool, download the jupyter notebook at the github link below. Follow the instructions in the notebook to input your buffer conditions and the melt data exported from CFX Maestro software. Then you can plot your melt peaks and create pandas queries to plot data by buffer, pH, salt, etc. For users who are new to using pandas for data manipulation and seaborn for making plots, the notebook provides detailed instructions for every step in the process. The example image above shows a plot containing all of the melt peaks from an entire 96-well plate buffer screen.
 <br>Access the github repository <a href="https://github.com/rebmcg/DSF_plotting" target="_blank">here</a> 
 								</p>
 
@@ -438,6 +440,7 @@ bridges between the nucleus and cytoskeleton: Regulation of LINC complex assembl
 
 	</body>
 </html>
+
 
 
 
